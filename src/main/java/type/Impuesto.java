@@ -1,0 +1,21 @@
+package type;
+
+public enum Impuesto {
+    IMPUESTO_AL_VALOR_AGREGADO("01"),
+    IMPUESTO_SELECTIVO_DE_CONSUMO("02"),
+    IMPUESTO_UNICO_A_LOS_COMBUSTIBLES("03"),
+    IMPUESTO_ESPECIFICO_DE_BEBIDAS_ALCOHOLICAS("04"),
+    IMPUESTO_ESPECIFICO_SOBRE_LAS_BEBIDAS_ENVASADAS_SIN_CONTENDIO_ALCOHOLICO_Y_JABONES_DE_TOCADOR("05"),
+    IMPUESTO_A_LOS_PRODUCTOS_DE_TABACO("06"),
+    IVA_CALCULO_ESPECIAL("07"),
+    IVA_REGIMEN_DE_BIENES_USADOS_FACTOR("08"),
+    IMPUESTO_ESPECIFICO_AL_CEMENTO("12"),
+    OTROS("99");
+
+    private final String value;
+
+    Impuesto(final String value){ this.value = value; }
+
+    public String getValue(){ return this.value;}
+
+}
