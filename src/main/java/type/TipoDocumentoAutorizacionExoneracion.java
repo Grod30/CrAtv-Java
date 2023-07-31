@@ -1,6 +1,6 @@
 package type;
 
-public enum Documento {
+public enum TipoDocumentoAutorizacionExoneracion {
     COMPRAS_AUTORIZADAS("01"),
     VENTAS_EXENTAS_A_DIPLOMATICOS("02"),
     AUTORIZADO_POR_LEY_ESPECIAL("03"),
@@ -12,7 +12,7 @@ public enum Documento {
 
     private final String value;
 
-    Documento(final String value){
+    TipoDocumentoAutorizacionExoneracion(final String value){
         this.value = value;
     }
 
