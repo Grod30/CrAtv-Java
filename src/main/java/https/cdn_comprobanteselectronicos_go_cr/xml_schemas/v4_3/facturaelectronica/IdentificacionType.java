@@ -8,8 +8,6 @@
 
 package https.cdn_comprobanteselectronicos_go_cr.xml_schemas.v4_3.facturaelectronica;
 
-import type.Identificacion;
-
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -60,7 +58,7 @@ import javax.xml.bind.annotation.XmlType;
 public class IdentificacionType {
 
     @XmlElement(name = "Tipo", required = true)
-    protected Identificacion tipo;
+    protected type.IdentificacionType tipo;
     @XmlElement(name = "Numero", required = true)
     protected String numero;
 
@@ -72,7 +70,7 @@ public class IdentificacionType {
      *     {@link String }
      *     
      */
-    public Identificacion getTipo() {
+    public type.IdentificacionType getTipo() {
         return tipo;
     }
 
@@ -84,7 +82,7 @@ public class IdentificacionType {
      *     {@link String }
      *     
      */
-    public void setTipo(Identificacion value) {
+    public void setTipo(type.IdentificacionType value) {
         this.tipo = value;
     }
 

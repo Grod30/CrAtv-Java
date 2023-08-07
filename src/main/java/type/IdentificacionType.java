@@ -1,6 +1,6 @@
 package type;
 
-public enum Identificacion  {
+public enum IdentificacionType {
     CEDULA_FISICA("01"),
     CEDULA_JURIDICA("02"),
     DIMEX("03"),
@@ -8,7 +8,7 @@ public enum Identificacion  {
 
     private final String value;
 
-    Identificacion(final String value){
+    IdentificacionType(final String value){
         this.value = value;
     }
 

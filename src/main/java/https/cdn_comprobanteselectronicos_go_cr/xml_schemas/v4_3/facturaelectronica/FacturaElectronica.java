@@ -293,7 +293,7 @@ import org.w3c.dom.Element;
     "signature"
 })
 @XmlRootElement(name = "FacturaElectronica")
-public class FacturaElectronica {
+public class  FacturaElectronica {
 
     @XmlElement(name = "Clave", required = true)
     protected String clave;
