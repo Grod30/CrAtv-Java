@@ -64,7 +64,7 @@ public class PGPDataType {
      * Obtiene el resto del modelo de contenido. 
      * 
      * <p>
-     * Ha obtenido esta propiedad que permite capturar todo por el siguiente motivo: 
+     * Ha obtenido esta propiedad que permite capturar to do por el siguiente motivo:
      * El nombre de campo "PGPKeyPacket" se está utilizando en dos partes diferentes de un esquema. Consulte: 
      * línea 218 de file:/home/giovanni/Escritorio/ATV/xmldsig-core-schema.xsd
      * línea 213 de file:/home/giovanni/Escritorio/ATV/xmldsig-core-schema.xsd
